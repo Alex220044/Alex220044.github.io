@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 3 challenges</title>
+     <link rel="shortcut icon" href="./favicon.ico.png" type="image/x-icon">
+
+      <!-- 
+		Додайте тут елеиент style 
+		В сепедині style визначте селектор p з властивістю color: red;
+	-->
+    <style>
+        p {
+            color: red;
+        }
+    </style>
+
+     <!-- Додайте тут елеиент style: -->
+    <style type="text/css">
+     
+        body {
+        background: var(--bgColor);
+        }
+
+        div {
+        --bgColor: limegreen;
+        }
+
+        /*
+        визначте для елементів p властивість фону таким чином:
+        background: var(--bgColor);
+        */
+    </style>
+</head>
+<body>
+     <h2>Сторінка Вікіпедії для мови CSS</h2>
+    <!-- На сайті Wikipedia знайдіть сторінку про CSS українською мовою -->
+
+    <!-- Додайте тут елеиент iframe з посиланням на українську версію Wikipedia page for the CSS language -->
+
+    <!-- В елеиенті iframe визначте атрибут title зі значенням Сторінка Вікіпедії для мови CSS -->
+
+    <iframe src="https://uk.wikipedia.org/wiki/CSS" title="Сторінка Вікіпедії для мови CSS"></iframe>
+
+    <!-- 
+		Додайте тут елеиент p з текстом This is my paragraph.
+		визначте атрибут style для тега p зі значенням color: blue;
+	-->
+    <p style="color: blue;">This is my paragraph.</p>
+
+     <!-- 
+		який колір буде мати текст This is my paragraph і чому.
+	-->
+     <!-- колір синій, бо стилі у тегах мають вищий пріоритет -->
+
+     <!--виправити помилки-->
+     <p>Звичайний, нудний абзац. Намагайтеся не заснути.</p>
+
+    <p class="exciting">The most exciting paragraph on the page. One of a kind!</p>
+    
+    <div class="exciting1">The most exciting paragraph on the page. One of a kind!</div>
+    
+    <style>
+  #exciting {
+   background: #f69d3c;
+   border: 1px solid #696969;
+   padding: 10px;
+  }
+  #exciting1 {
+    background: #583cf6;
+    border: 1px solid #8d5252;
+    padding: 10px;
+  }
+ </style>
+
+  <!-- ... -->
+
+    <!-- Додайте тут 2 елеиенти div: -->
+    <div>
+    <h3>Div 1</h3>
+        <p>Paragraph 1</p>
+    </div>
+
+    <div>
+    <h3>Div 2</h3>
+        <p>Paragraph 2</p>
+    </div>
+
+  <!-- Чи буде змінна --bgColor видимою для елемента body. 
+    Яким буде фон елемента body і чому. -->
+    <!-- не буде видимою, для тега div визначено колір окремо --> 
+    
+    <!--
+        Виправити помилку у фпагменті
+ * {
+  margin: 0;
+  padding: 0;
+ }
+
+ /* more styles */
+ @import url("my-imported-styles.css");
+ @import url(/css/common.css);
+    -->
+
+     <footer>
+            <!-- Секція "About" -->
+            <section class="footer-section">
+                <!-- Div для "About" -->
+                <div >
+                    <h2>About</h2>
+                    <!-- Невпорядкований список з елементами -->
+                    <ul class="footer-ul">
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Customers</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+        
+                <!-- Div для "Resources" -->
+                <div >
+                    <h2>Resources</h2>
+                    <!-- Невпорядкований список з елементами -->
+                    <ul class="footer-ul">
+                        <li><a href="#">Docs</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">eBooks</a></li>
+                        <li><a href="#">Webinars</a></li>
+                    </ul>
+                </div>
+        
+                <!-- Div для "Contact" -->
+                <div >
+                    <h2>Contact</h2>
+                    <!-- Невпорядкований список з елементами -->
+                    <ul class="footer-ul">
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Sales</a></li>
+                        <li><a href="#">Advertise</a></li>
+                    </ul>
+                </div>
+            </section>
+        
+            <!-- Footer legal -->
+            <!-- Section для "Footer legal" -->
+            <section class="footer-section">
+                <!-- Невпорядкований список з елементами -->
+                <ul>
+                    <li><a href="#">Terms &amp; Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+                <!-- Copyright notice -->
+                <p>&copy; 2024 Copyright Shopaholic Inc.</p>
+            </section>
+        </footer>
+</body>
+</html>
