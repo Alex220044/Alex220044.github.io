@@ -10,7 +10,52 @@
 body {
     color: var(--primary-text-color);
     background-color: var(--primary-bg-color);
+    font-family: var(--primary-font-family);
+    font-size: var(--primary-font-size);
 }
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 1.45rem;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+.list-unstyled {
+    list-style: none;
+}
+
+.footer-social{
+    
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.bg-dark {
+    background-color: black;
+}
+
+.text-white {
+    color: white;
+}
+
+ul.categories li a {
+    color: indigo;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+ul.categories li a:hover {
+    background-color: lightgray;
+}
+
 nav {
     text-align: center;
 }
