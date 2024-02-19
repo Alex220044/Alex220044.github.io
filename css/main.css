@@ -27,8 +27,9 @@ h2 {
 .list-unstyled {
     list-style: none;
 }
+
 .footer-social {
-    /* footer */
+    font-weight: 700
 }
 
 aside {
